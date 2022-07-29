@@ -14,3 +14,16 @@ Command to start staging a file
 Command for commit
     git commit -m "Commit Message"
 
+
+Command to check the status of files
+    git status
+
+
+Command to see commit details
+    git log
+
+
+Restoring Chages
+    git resotre file_name
+    git resotre .
+    <we can also use checkout in place of resotre>
