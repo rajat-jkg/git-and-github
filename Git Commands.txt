@@ -17,6 +17,11 @@ Command for unstaging a file
 
 Command for commit
     git commit -m "Commit Message"
+    git commit
+
+Editing commit Message
+    git commit --amend
+    {It opens the file in wim Editor. Press esc followed by :wq command to save and exit}
 
 
 Command to check the status of files
@@ -25,6 +30,8 @@ Command to check the status of files
 
 Command to see commit details
     git log
+      or
+    git log --oneline
 
 
 Restoring Chages
@@ -32,8 +39,18 @@ Restoring Chages
     git resotre .
     <we can also use checkout in place of resotre>
 
+
 Deleting a file
     git rm file_name
 
+
 Renaming a file
     git mv file_name new_name
+
+
+Removing git data of a file
+    git rm -r --cached file_name
+
+    For Removing all the data
+        git rm -r --cached .
+
