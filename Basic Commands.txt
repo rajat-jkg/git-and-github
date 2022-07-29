@@ -2,13 +2,17 @@ Command to initialise a repository
     git init
 
 
-Command to start staging a file
+Command for staging a file
     git add file_name
     
     For all files
         git add --all
         git add -A
         git add .
+
+
+Command for unstaging a file
+    git resotre --staged file_name
 
 
 Command for commit
