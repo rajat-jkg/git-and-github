@@ -31,3 +31,9 @@ Restoring Chages
     git resotre file_name
     git resotre .
     <we can also use checkout in place of resotre>
+
+Deleting a file
+    git rm file_name
+
+Renaming a file
+    git mv file_name new_name
