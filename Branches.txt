@@ -1,0 +1,14 @@
+Creating a new branch
+    git switch -c BRANCH_NAME
+    [When you create a branch, you automatically switch to that branch]
+
+
+Fetching list of branches
+    git branch
+
+
+[Note: To know which branch is active, say "git status"]
+
+
+Switching to another branch
+    git switch BRANCH_NAME
