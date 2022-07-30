@@ -59,3 +59,10 @@ Restoring a previous commit:
     git reset --hard commit_id
 
     We can get the commit_id from git log --oneline command
+
+
+Clean command:
+This command cleans the utracked files and directories
+    git clean -n [Show what files will be cleaned on executing clean command]
+    git clean -f [forcefully cleans all the untracked files]
+    git clean -d [removes the untracked directories]
