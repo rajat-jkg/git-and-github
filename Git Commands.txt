@@ -52,5 +52,10 @@ Removing git data of a file
     git rm -r --cached file_name
 
     For Removing all the data
-        git rm -r --cached .
+        git rm -r --cached .0
 
+
+Restoring a previous commit:
+    git reset --hard commit_id
+
+    We can get the commit_id from git log --oneline command
