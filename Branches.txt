@@ -12,3 +12,10 @@ Fetching list of branches
 
 Switching to another branch
     git switch BRANCH_NAME
+
+
+Merging a branch with another
+    Switch to the master branch and say "git merge BRANCH_NAME" 
+
+Deleting a branch
+    git branch -b BRANCH_NAME
