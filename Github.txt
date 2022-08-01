@@ -1,0 +1,10 @@
+Remote:
+Remote is an online repository with which your git repo is synced
+    git remote add NAME url [NAME is assigned to url]
+    git remote remove NAME (to remove a remote)
+    git remote -v (it lists all the remotes to your repository)
+
+Push:
+Pushing changes means syncing changes with to a remote
+    git push origin REMOTE_NAME BRANCH_NAME
+    git push --all [it pushes all the branches]
